@@ -1,0 +1,245 @@
+.navbar img {
+    width: 250px;
+    height: 100%;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 25px 0px 25px;
+    font-size: 20px;
+  }
+  
+  .active-indicator {
+    align-self: stretch;
+    height: 3px;
+    position: relative;
+    border-radius: 34px;
+    background-color: #1de0bd;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  .navbar {
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    margin: 60px 0px 30px 0px;
+  }
+  .hero-right img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 190px;
+  }
+  
+  .hero-right {
+    width: 20vw;
+    margin: 56px 10px 10px 220px;
+  }
+  
+  .hero-left {
+    width: 50vw;
+    font-size: 30px;
+    margin: 0px 0px 0px 60px;
+  }
+  .hero-left h1 {
+    margin: 17px 0px 11px 0px;
+  }
+  .hero-left h2 {
+    font-size: 14px;
+    color: #1de0bd;
+  }
+  
+  .hero-left p {
+    font-size: 14px;
+    color: #676c6b;
+  }
+  .book {
+    width: 104px;
+    height: 33px;
+    margin: 12px 0px 0px 0px;
+  }
+  
+  /* Below hero */
+  
+  .below-hero {
+    display: flex;
+    align-items: center;
+    margin: 150px 0px 0px 0px;
+  }
+  .b_left img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 190px;
+    margin: 0px 0px 0px 100px;
+  }
+  .b_right p {
+    font-size: 14px;
+    color: #676c6b;
+    padding: 0px 0px 0px 1px;
+  }
+  .b_right {
+    padding: 0px 100px 50px 122px;
+  }
+  .b_left h1 {
+    margin: 17px 0px 11px 0px;
+  }
+  
+  .circle-rating {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .circle-rating-svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle-rating-background {
+    fill: none;
+    stroke-width: 10%;
+  }
+  
+  .circle-rating-progress {
+    fill: none;
+    stroke-width: 10%;
+    stroke: #1de0bd;
+    stroke-width: 10%;
+    stroke-dasharray: 0, 100%;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dasharray 0.5s;
+  }
+  
+  .percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #087871;
+  }
+  .Quality {
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .circle-rating-progress2 {
+    fill: none;
+    stroke-width: 10%;
+    stroke: #ff0000;
+    stroke-width: 10%;
+    stroke-dasharray: 0, 100%;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dasharray 0.5s;
+  }
+  
+  /*     FOOTER  */
+  
+  .container {
+    display: flex;
+  }
+  
+  .container img {
+    width: 19vw;
+    height: 19vw;
+    margin: 30px;
+    border-radius: 25px;
+  }
+  .img-galary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 0px 0px 0px;
+  }
+  .img-galary h2 {
+    margin: 0px 0px 61px 0px;
+    color: #0f4848;
+  }
+  
+  /* footer section*/
+  
+  .footer {
+    display: flex;
+    margin: 26px 0px 0px 0px;
+    border-top: #298c7f solid 1px;
+    border-radius: 30px;
+  }
+  
+  .footer img {
+    width: 150px;
+    height: 50px;
+    margin: 22px 0px 0px 20px;
+  }
+  
+  .search-bar-2 {
+    display: flex;
+    margin: 45px 0px 0px -10px;
+  }
+  
+  .search-bar-2 input {
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
+    width: 20vw;
+    height: 42px;
+    background-color: #d3fbff;
+    border: 1px solid #7aded3;
+    border-radius: 0px 0px 0px 20px;
+  }
+  
+  .search-button-2 {
+    width: 10vw;
+    height: 43px;
+    border-radius: 0px 20px 0px 0px;
+    background-color: #4aefd9b8;
+    border: 1px solid #27cac8;
+  }
+  footer p {
+    margin: 10px 0px 0px 20px;
+    font-size: 16px;
+    color: #1b0935;
+  }
+  .c-1,
+  .c-2,
+  .c-3 {
+    width: 20vw;
+    margin: 0px 0px 0px 15px;
+  }
+  
+  .c-2 h2,
+  .c-3 h2 {
+    font-size: 20px;
+    margin: 40px 0px 0px 20px;
+    color: #1b0935;
+  }
+  
+  .c-2 ul li,
+  .c-3 ul li {
+    list-style: none;
+    margin: 7px 0px 0px -17px;
+  }
+  
+  .c-2 ul li a,
+  .c-3 ul li a {
+    text-decoration: none;
+    color: #618582;
+    font-size: 16px;
+    font-weight: 550;
+  }
+  
+  .last-line {
+    margin: 60px 6px 10px 500px;
+    font-size: 16px;
+    color: #1b0935;
+  }
